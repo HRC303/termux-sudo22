@@ -13,18 +13,15 @@ Rooted phone with su binary
 SUDO WILL NOT WORK WITHOUT SU
 
 **Installing sudo**
-
-1. Clone termux-sudo or download to phone and extract
-2. Open Termux
-3. Install a dependency needed for sudo:
-   ```pkg install ncurses-utils```
-4. Change to cloned or extraction directory
-5. Execute the following commands to place sudo into the correct directory with the proper permissions and ownership
-
-```
-cat sudo > /data/data/com.termux/files/usr/bin/sudo
-chmod 700 /data/data/com.termux/files/usr/bin/sudo
-```
+$ pkg install tsu
+$ pkg install ncurses-utils
+$ git clone https://github.com/HRC303/termux-sudo22.git
+$ ls
+$ cd termux-sudo22
+$ ls
+$ cat README.md
+$ cat sudo > /data/data/com.termux/files/usr/bin/sudo
+$ chmod 700 /data/data/com.termux/files/usr/bin/sudo
 
 **Features**
 
